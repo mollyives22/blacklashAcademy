@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
+  componentDidMount() {
+    alert('I mounted in the DOM');
+  }
+
   render() {
     return (
       <div className="App">
@@ -17,7 +22,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React Now!
           </a>
         </header>
       </div>
